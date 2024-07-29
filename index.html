@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/logo.png">
+    <title>Baking Bean</title>
+    <style>
+        * {
+            padding: 0;
+        }
+
+        .header {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+        .top{
+            position: sticky;
+            left: 0px;
+            top: 0px;
+        }
+
+        .header1 {
+            background-color: black;
+            border: 3px solid black;
+            margin-bottom: 3px;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 60px;
+            padding-right: 15px;
+            box-shadow: 7px 7px 7px gray;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        .home {
+            font-size: 30px;
+        }
+
+        .menu {
+            list-style-type: none;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+        }
+
+        .link {
+        
+            border-radius: 15px;
+            background-color: white;
+            font-size: 15px;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+    
+
+        .head2 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .link2 {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        section {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-around;
+        }
+
+        section>article {
+            box-sizing: border-box;
+            width: calc(25% - 15px);
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 7px 7px 7px gray;
+        }
+        section>article>a>header{
+            background-color: black;
+            color: white;
+            height: 40px;
+            padding-top: 10px;
+            font-size: 22px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+
+        .logo{
+            height: 100px;
+            padding-top: 5px;
+        }
+        footer{
+        background-color: black;
+        color: white;
+        height: 50px;
+        font-size: 23px;
+        }
+        footer>p{
+            text-align: center;
+            padding-top: 10px;
+        }
+        article>a{
+            text-decoration: none;
+            color: black;
+        }
+
+        article>a>img{
+            border-radius: 360px;
+            margin-top: 10px;
+        }
+        article>a>p{
+            border-top: 2px solid black;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <article class="header1">
+            <div>
+                <img class="logo" src="Images/logo.png" alt="Logo Not Found">
+            </div>
+            <h1 class="header">
+                Baking Bean
+            </h1>
+            <ul class="menu">
+                <li>
+                    <a class="link" href="gujrati.html"> Gujrati </a>
+                </li>
+                <li>
+                    <a class="link" href="punjabi.html"> Panjabi </a>
+                </li>
+                <li>
+                    <a class="link" href="southindian.html"> South-Indian </a>
+                </li>
+                <li>
+                    <a class="link" href="bengoli.html"> Bengoli </a>
+                </li>
+                <li>
+                    <a class="link" href="rajasthani.html"> rajasthani </a>
+                </li>
+                <li>
+                    <a class="link" href="hydrabadi.html"> Hyderabadi </a>
+                </li>
+            </ul>
+        </article>
+    </header>
+    <h2 class="head2">
+        Popular Recipes
+    </h2>
+
+    <section>
+        <article>
+            <a href="Bhajiya.html">
+                <header>Bhajiya</header>
+                <img src="Images/Gujrati/Bhajiya.jpg" alt="Image Not Found" width="80%">
+                <p>"Bhajiya," also spelled as "bhajji" or "bhaji," is a popular Indian snack or appetizer. It's essentially a type of fritter made by deep-frying sliced or battered vegetables, commonly served with chutney or sauce.</p>
+            </a>
+        </article>
+        <article>
+            <a href="dabeli.html">
+                <header>Dabeli</header>
+                <img src="Images/Gujrati/dabeli.jpg" alt="Image Not Found" width="80%">
+                <p>Dabeli is a popular street food snack originating from the state of Gujarat in western India. It is a flavorful and spicy dish that consists of a spicy potato filling stuffed between pav , along with various chutneys, peanuts, and crunchy sev.</p>
+            </a>
+        </article>
+        <article>
+            <a href="medu vada.html">
+                <header>Medu Vada</header>
+                <img src="Images/South-indian/medu vada.jpg" alt="Image Not Found" width="80%">
+                <p>Medu vada, also spelled "Medhu Vada," is a popular South Indian snack or breakfast item known for its crispy exterior and soft, fluffy interior. It's made primarily from urad dal batter, seasoned with spices and herbs, and deep-fried until golden brown.</p>
+            </a>
+        </article>
+        <article>
+            <a href="Fafda.html">
+                <header>Fafda</header>
+                <img src="Images/Gujrati/Fafda.jpg" alt="Image Not Found" width="80%">
+                <p>Fafda is a popular Gujarati snack known for its crispy texture and savory flavor. It's made primarily from gram flour (besan), seasoned with spices, and deep-fried until golden brown. Fafda is often enjoyed on its own or paired with other snacks like jalebi or chutneys. </p>
+            </a>    
+            </article>
+        <article>
+            <a href="dosa.html">
+                <header>Dosa</header>
+                <img src="Images/South-indian/dosa.jpg" alt="Image Not Found" width="80%">
+                <p>Dosa is a traditional South Indian crepe made from fermented rice and urad dal (black lentils) batter. It's a popular breakfast item and snack not only in South India but also across the Indian subcontinent and globally.</p>
+            </a>
+        </article>
+        <article>
+            <a href="Jalebi.html">
+                <header>Jalebi</header>
+                <img src="Images/Gujrati/Jalebi.jpg" alt="Image Not Found" width="80%">
+                <p>Jalebi is a popular sweet treat in Indian cuisine, particularly famous for its crispiness, syrupy texture, and distinctive spiral shape. It's often enjoyed as a dessert or snack and is commonly served during festivals and celebrations. </p>
+            </a>
+        </article>
+        <article>
+            <a href="Kadhai paneer.html">
+                <header>Kadhai paneer</header>
+                <img src="Images/Panjabi/Kadhai Paneer.jpg" alt="Image Not Found" Width="80%">
+                <p>Kadhai Paneer is a popular North Indian dish known for its rich and flavorful gravy, along with chunks of paneer (Indian cottage cheese) and colorful bell peppers. It's a vegetarian dish that's often served in Indian restaurants and made at home for special occasions. </p>
+            </a>
+        </article>
+        <article>
+            <a href="Khaman.html">
+                <header>Khaman</header>
+                <img src="Images/Gujrati/Khaman.jpg" alt="Image not Found" width="80%">
+                <p>Khaman, also known as Khaman Dhokla, is a popular savory snack from the Indian state of Gujarat. It's made from flour and seasoned with typically served as a breakfast dish or snack. Khaman has a texture and slightly tangy making it a favorite among both adults and children.</p>
+            </a>   
+        </article>
+        <article>
+            <a href="idli.html">
+                <header>Idli</header>
+                <img src="Images/South-indian/idli.jpg" alt="Image Not Found" width="80%">
+                <p>Idli is a popular South Indian steamed rice cake made from fermented rice and black lentil batter. It's a staple food in South Indian cuisine and is enjoyed as a snack, meal. Idli is known for its soft, fluffy making it a versatile dish that pairs well with a variety of accompaniments.</p>
+            </a>
+        </article>
+        <article>
+            <a href="paneer tikka.html">
+                <header>Paneer tikka</header>
+                <img src="Images/Panjabi/paneer tika.jpg" alt="Image Not Found" width="80%">
+                <p>
+                    Paneer tikka is a popular Indian appetizer or snack made from marinated cubes of paneer (Indian cottage cheese) and vegetables, which are skewered and grilled or baked until charred and flavorful. It's a vegetarian version of the traditional and it's known for its tangy flavors.</p>
+            </a>
+        </article>
+        <article>
+            <a href="Khaman.html">
+                <header>Khandvi</header>
+                <img src="Images/Gujrati/khandvi.jpg" alt="Image Not Found" width="80%">
+                <p>Khandvi, also known as Patuli or Suralichi Vadi in some regions of India, is a savory snack from Gujarat. It is made from gram flour and yogurt, and cooked to a soft, melt-in-your-mouth texture. Khandvi is characterized by its delicate, thin rolls that are often garnished with mustard seeds.</p>
+            </a>
+        </article>
+        <article>
+            <a href="Paneer Bhurji.html">
+                <header>Paneer Bhurji</header>
+                <img src="Images/Panjabi/Paneer Bhurji.jpg" alt="Image not Found" width="80%">
+                <p>Paneer bhurji is a popular Indian dish made from crumbled paneer cooked with onions, tomatoes, and spices. It's a quick and easy dish to prepare, often enjoyed for breakfast, lunch, or dinner. Paneer bhurji is known for its savory, spicy flavor and creamy texture. </p>
+            </a>
+        </article>
+
+    </section>
+    <footer>
+        <P>
+            Created By: Dharm 
+        </P>
+    </footer>
+</body>
+
+</html>
